@@ -9,8 +9,6 @@ from OpenSSL import SSL
 
 print("   ")
 print("   ")
-print("   ")
-print("   ")
 print("==========Shift+Ctrl+P ==> command pallett ==========================")
 print("====================================")
 print("====================================")
@@ -35,4 +33,4 @@ print(greet("World"))
 print(greet("Corey"))
 
 r = requests.get("https://www.google.com")
-print(r.status_code)
+print(r.ok)
